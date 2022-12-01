@@ -1,0 +1,37 @@
+body{
+    background-color: #E7C0B7;
+}
+
+
+.parent{
+    border: 1px ;
+    background-color: #E7C0B7;
+    height:750px;
+    position: relative;
+}
+
+.child1{
+    position:absolute;
+   right:0px;
+   top:1px;
+   text-decoration: underline;
+   letter-spacing:5px;
+    
+}
+
+.child2{
+    border:1px red;
+    position: absolute;
+    width: 1510px;
+    background-color: red;
+    display:hide;
+    visibility: hidden;
+}
+
+.html{
+    padding:60px;
+    font-size:25px;
+    font-weight: bold;
+    text-shadow: 2px 2px #dfdfe7, 2px 2px #000000;
+
+}
