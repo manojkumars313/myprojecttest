@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: #E7C0B7;
 }
 
@@ -34,4 +34,19 @@ body{
     font-weight: bold;
     text-shadow: 2px 2px #dfdfe7, 2px 2px #000000;
 
+} */
+
+/* CODE TEST 2 */
+
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div {
+  border: 2px solid greenyellow;
+  width: 20%;
+  height: 200px;
 }

@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+
+  margin: auto;
+}
+.container > div {
+  border: 2px solid greenyellow;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+}
